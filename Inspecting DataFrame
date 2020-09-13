@@ -5,3 +5,22 @@ print(df.head())
 or
 df.info()
 print(df.info())
+
+* ACCESS THE DATA
+ - Selecting columns
+ 
+ we might use the columns for caliculation.
+* PLOT DATA 
+
+Column selection:
+ column = file['column_name']
+ print(column)
+ 
+Common mistakes in coumn selections:
+ * Use brackets and string for column names with spaces or special characters (-.?, etc)
+ * Not dot notion
+ * using brackets and string, dont forget tge quotes around the column name!
+ * Brackets not parenthesis
+ 
+
+ 
