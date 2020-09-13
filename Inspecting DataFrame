@@ -1,0 +1,7 @@
+to select few rows of df
+df is DataFrame
+df.head() 
+print(df.head())   
+or
+df.info()
+print(df.info())
